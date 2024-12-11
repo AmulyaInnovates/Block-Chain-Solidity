@@ -1,0 +1,223 @@
+-_-_-_-_-_-_-_-_-_-_-_-_BLOCK CHAIN-_-_-_-_-_-_-_-_-_-_-_-_
+
+What is blockchain?
+    ->Blockchain is nothing but a chain of multiple blocks.
+
+
+What is Block?
+    ->Block can be defined as a square box. Which has three sides(Block.png),
+        ->Data
+        ->Hash code
+        ->Previous Hash code
+
+
+What is Data in a Block?
+    ->Some part of the block contains information which is known as data. This data is nothing but information about sender, receiver and how many coins(money) have been transferred.
+
+🔥Components of a block chain :-
+    ->Block height : Block height represents the length of the blockchain.
+    ->Timestamp : Date and time at which block is mined or created.
+    ->Mined by : Information about miner who mined the block.
+    ->Block reward : For each block, miners get rewards in terms of fees in form of coins from the sender.
+    ->Uncle reward : This reward is rewarded to miner for confirmation of the transaction.
+    ->Difficulty : The amount of effort required to mine a block.
+    ->Total difficulty : Total difficulty of entire blockchain
+    ->Size : Size of block
+    ->Gas used : How much energy used for mining this block
+    ->Gas limit : Total energy used for all blocks
+    ->Extra data : Additional data provided by miner
+    ->Hash : Hash code of block
+    ->Parent hash : Hash code of previous block
+    ->SHA3Uncles : Algorithm used for hashing
+    ->StateRoot : State of blockchain. It contain all information about entire blockchain
+    ->Nonce : It is a value used during mining of the block. Which defined proof of work.
+    ->blockHash: This is the hash of the current block.
+    ->blockNumber: This is the block number of the current block.
+    ->from : This is the sender who initiates the transaction. This is given by a hexadecimal code.
+    ->Gas: This is the amount of energy spent on the transaction.
+    ->gasPrice in ether: This is the gas price required for the transaction.
+    ->Hash: This is the hash of the transaction.
+    ->Input:Here input is data which is transferred by a given transaction.
+    ->Nonce: This is the transaction counter for each account. It counts the number of transactions of an account.
+    ->Signature:This is basically the digital signature used in the blockchain,  primarily used to verify the authenticity of the transactions.
+    ->To: this is the intended receiver of the transaction.
+    ->Value: This is the amount of ETH value which is nothing but the Ethereum currency being transferred.
+    ->Transaction Count: This is the total number of transactions in the blockchain.
+
+RealLife Example of a block.
+    ->As you know blocks contain a lot of information about each and every transaction, Similarly the bank receipt also contains a lot of information(Receipt.png)
+
+Miners
+    ->Miners are nothing but those people who verifies that this is a transaction as valid then this transaction sets an official transaction record.
+    ->Then we have a new block added to the blockchain, and then the miner is rewarded with some coin known as reward.
+
+Class Object implementation
+    ->Class and object are important concepts of OOP(object oriented programming)
+    ->Project Pic(1.gif)
+
+Genesis Block
+    ->First block of blockchain is known as the Genesis block. This genesis is very important because from this blockchain starts.
+        ->Blockchain structure(Genesis_2.png)
+    ->Genesis block is like a train engine(Genesis.jpeg) and the remaining blocks are nothing but the train coach attached to the engine.
+
+Methods v/s Functions (Method-vs-Functions.jpeg)
+    ->Method is a function which is defined inside a class.
+
+🔥TRIAL Link
+    ->https://andersbrownworth.com/blockchain/tokens
+
+What is Gas?
+    ->Gas is the fee required to carry out any transaction in an ethereum(ETH) network. Whether you are transferring the ETH you require a processing fee to be given.
+    ->Same as you pay money to a courier company for delivering your parcel.
+
+Modules and concepts :-
+    ->json - Python has a built-in package called json, which can be used to work with JSON data.
+
+    ->Requests- Python’s requests library allows us to send the http request to the server and gets the required information.
+    ->For example
+        ->If you go to a restaurant, and place a food order to the waiter. Then this is called a request.
+        ->When the waiter goes into the kitchen, and passes the order to the chef, and chef  prepares the food this can be called as the system where some things are worked as per the request.
+        ->And then the waiter gets the food and to you, then it is  called the response.
+
+    ->ETH gas station API: this is an API link which gives the information about the gas being used in carrying out the transactions.
+
+    ->Gwei : The price involved in Ethereum transactions for carrying out the transactions is in terms of Gwei.
+        ->Wei : The smallest denomination of Ether.
+        ->kwei(babbage) : 1000 wei
+        ->mwei(lovelace): 1000000 wei
+        ->gwei(shannon) : 1000000000 wei
+        ->Micro Ether(szabo) : 1000000000000 wei
+        ->Milli Ether(finney) : 1000000000000000 wei
+        ->ether : 1000000000000000000 wei
+        ->Kether(grand) : 1000 ether
+        ->Mether(mether) : 1000 kether
+        ->Gether(gether) : 1000 mether
+        ->Tether(tether) : 1000 gether
+        ->Pether(pether) : 1000 tether
+        -> 1 Ether : 1,000,000,000 Gwei
+    
+Mainnet v/s Testnet (Mainnet-vs-Testnet.jpeg)
+    ->Mainnet is the main network of Ethereum.
+    ->Testnet is a network which is used for testing purposes.
+    ->Mainnet is the main network where the real transactions take place and Testnet is used with token money.
+    
+Different main networks:
+    ->Infura : This is the most reliable platform available for the developers to develop the blockchain. It provides faster access to ethereum by using the various API’s and developing tools.
+    ->MyEtherWallet: It is a free platform, which provides us an interface to interact with the blockchain. It is easy to use, open source platform which allows us to generate wallets, transfer money, and so on.
+    ->Mycrypto : This is a platform which allows us to manage all our transactions at one place, we can import and control all the ethereum accounts.
+    ->Chainstack: This is also a platform which enables us to develop our blockchain applications, by providing free and reliable access.
+    ->Etherscan: It is a platform which allows us to view the transactions, blocks, and so on. (https://etherscan.io/)
+
+Important Methods in transactions:
+    ->Transfer : Which means to initiate a transaction to transfer money.
+    ->Buy : Which means to initiate a transaction to buy coins on blockchain.
+    ->Atomic Match: it is a technology which enables the exchange of one cryptocurrency into another.
+    ->Stake: in order to be a validator you need to invest some ethereum coins to purchase the validator software to validate the ongoing transaction on the network. For this staking method is used , which allows you to activate the validator software.
+    ->Unstake: This is the opposite of staking, which means to deactivate the validator software.
+
+Fetch the transaction of the latest transaction of the block:
+    ->So we have two options:
+        ->Either manually mention the transaction hash.
+        ->Or by adding logic we can get the latest transaction of the block.
+
+    ->We will go with logic approach.
+    ->Consider the below example of a list and we need to access Mango, so either we will pass 4 OR -1 as the index, Similarly to get the last element from a list we will pass-1 as the index.
+    -> Example Images :- (List-index-example.png) ; (List-index-example-2.png)
+    ->So in order to get the latest transaction of the block we will pass -1 as the index.
+
+Proof of work
+    ->Proof means evidence which proves something is real or unreal.
+    ->In simple words, Proof is nothing but the evidence of something which exists or doesn't exist.
+    ->Every transaction which is validated, has certain proof. This proof indicates that the transaction has been mined by the miners, and there is no duplicate transaction present in the block.
+    ->Proof of work can be through like a Rubix Cube Puzzle game. The ultimate goal is to solve the scattered puzzle and bring together all the colours at each side of the cube.                                          
+    ->Similarly proof of work in block chain requires complex mathematics problems to be solved in order to validate the block in the block chain network.
+
+Proof of work done by miners(proof.png):
+    ->Proof-of-work is nothing but the additional security provided to verify the transactions. And these blocks in the block chain can not be validated or inserted in the network randomly. 
+
+
+    ->Proof of work is been achieved by miners:
+        ->Steps or approaches taken by the miners to mine these blocks using proof of work.
+        ->Mining is the process of adding new blocks to the blockchain.
+            ->Miners use the guessing game approach, where they have to guess a random number.
+            ->They first guess a nonce value (will brief about this in some time)
+            ->Generate  the hash of the block
+            ->Combine the nonce value with all the details of the block.
+            ->This process is repeated till a desired hash is generated
+            ->The miner who guesses the correct hash first, gets the reward.
+
+Nonce:
+    ->A nonce is basically the proof, which means a unique number guessed by the miners to solve the complex maths problem, in order to validate the block.
+    ->Nonce is a random number, which is used to solve the complex maths problem.
+    ->Nonce value is used to generate the hash of the block.
+    ->Nonce value is used to validate the block.
+    ->Nonce value is used to add the block to the block chain.
+
+While Loop (while_loop.png)
+    ->While loop is used to execute a block of statements repeatedly until a given condition is true.
+    ->It does not repeat in a defined amount of times.
+
+Proof (proof.jpg)
+    ->Proof is nothing but the evidence of something which exists or doesn't exist.
+
+Validation of blocks In Blockchain.
+    ->Below image shows how transactions happen in the block chain. (transactions.png)
+
+Example of validating of blocks In Blockchain.
+    ->There are blocks: block 1 and block 2.
+        ->We want to check whether newly created block 2 is valid or not. To do that we will do simple things:
+            ->We need to check whether the previous hash of block 2 is equal to the current hash of block 1.
+            ->If a hacker wants to change the data of block 1, the hash of the block 1 will also change. As a result the hash code of block 2 will also change and all the hashes of the next blocks will also change. This way the hacker will have to change the data of all the blocks in the blockchain.
+            -> (hash_change.png)
+            ->But making changes in the block chain is a very difficult and lengthy process.
+        ->Hence blockchain is a very secured network.
+
+Conclusion on validation on blocks:
+    ->Hash of previous block should match previous hash of current block
+    ->Example :- (validation.gif)
+
+Flowchart (flowchart.png)
+
+Mining
+    ->It is the process of adding the transactions, in the blocks of blockchain.In other words, we can say that mining is the process to validate every step in the transaction
+
+Transaction
+    ->We can simply say that a transaction is nothing but the buying or selling of any item in exchange for money.
+
+Ganache Platform (Ganache.png)
+    ->Ganache is a platform under the Truffle Suite, which is a development environment, which is a personal blockchain for Ethereum application development. This platform helps us to develop, deploy and test our blockchain applications.
+        -> Blocks- This tab gives the information of the blocks being mined in the blockchain. Currently it shows only one block. Later we will see how the blocks are getting mined once we code for transferring the amount from sender to receiver.
+        ->Transactions- This gives the transaction information happening in the block. Initially it is empty. Later when the transaction takes place, it will show the details under this tab.
+
+Example of private and public key (bank_example.png)
+    ->When bank has to send the  Bank statement to a account holder, then bank mails the bank statement in the form of pdf , but this pdf can be accessed by any one, but only the intended account holder can open and read the transaction,only by entering the secret key sent to the account holder.
+
+---------------------------------------------------------------------------------------------------------------------------------
+🌟Solidity
+    -> It is an object oriented, high-level languag for implementing smart contracts.
+    ->Smart contractsare programs which govern the behaviour of accounts with Etheruem state.
+    ->Solidity is statically typed, supports inheritance, libraries and complex user-defined types.
+
+🌟Unassigned variables are used as storage variables. They can not be negative as negiative will be assigned on the numbers.
+    -> uint count;
+
+🌟Functions
+    -> Functions are the executable units of code within a Solidity contract.
+    -> Functions can be declared as external, public, internal or private.
+    -> External functions are part of the contract interface, which means they can be called from other contracts and via transactions.
+    ->Functions can be used anywhere repeatedly in the entire code.
+
+    -> Example :- 
+        function getCount() public view returns(uint){
+            return count;
+        }
+
+    -> In this example, the getCount function is declared as Public, which means it can be called from other contracts and via transactions, it can also be set to Private and Internal.
+
+🌟Constructor
+    -> It is the main/special function in a contract which is called when the contract is deployed, it can only be sed once in a contract.
+    -> It is used to initialize the state variables of a contract.
+    -> It is used to set the initial values of the state variables of a contract.
+
+( Link to learn everything about Solidity :- https://docs.soliditylang.org/en/v0.8.11/# )
+-----------------------------------------------------------------------------------------
