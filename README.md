@@ -13,7 +13,9 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 
 
-<img src="https://i.ibb.co/M1cJHcx/Material-You-New-Tab-Preview.jpg" alt="Screenshot 1" width="100%">
+<img src="[https://i.ibb.co/M1cJHcx/Material-You-New-Tab-Preview.jpg](https://github.com/AmulyaInnovates/Block-Chain-Solidity/blob/49222712f28e391b02c1591c316882372ad77a7d/Images/Copy%20of%20Copy%20of%20Black%20And%20Beige%20Minimal%20Maha%20Shivratri%20Instagram%20Story.png)" alt="Screenshot 1" width="100%">
+
+
 
 #### 🔴 🟡 🟢 Test live : https://remix.ethereum.org/
 
