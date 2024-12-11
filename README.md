@@ -2,7 +2,7 @@
 
   <a href="https://xengshi.github.io/materialYouNewTab/"><img src="https://i.ibb.co/x11pGSs/icon-128.png" width="50"></a>
   <br>
-  Tabs
+  Block Chain Solidity
 
 </h1>
 <div align="center">
@@ -11,32 +11,11 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 </div>
 
-<div align="center">
 
-![License](https://img.shields.io/github/license/XengShi/materialYouNewTab)
-![Last Commit](https://img.shields.io/github/last-commit/XengShi/materialYouNewTab)
-![GitHub contributors](https://img.shields.io/github/contributors/XengShi/materialYouNewTab)
-![GitHub stars](https://img.shields.io/github/stars/XengShi/materialYouNewTab)
-![GitHub forks](https://img.shields.io/github/forks/XengShi/materialYouNewTab)
-
-</div>
-
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#%EF%B8%8F-additional-features">Additional Features</a> •
-  <a href="#-currently-supported-languages-16">Currently Supported Languages</a> •
-  <a href="#-installation-guide">Installation Guide</a>
-<br>
-  <a href="#--usage">Usage</a> •
-  <a href="#-contributing">Contributing</a> •
-  <a href="#-issues-and-support">Issues and Support</a> •
-  <a href="#-privacy-policy">Privacy Policy</a> •
-  <a href="#-license">License</a>
-</p>
 
 <img src="https://i.ibb.co/M1cJHcx/Material-You-New-Tab-Preview.jpg" alt="Screenshot 1" width="100%">
 
-#### 🔴 🟡 🟢 Test live : https://xengshi.github.io/materialYouNewTab/
+#### 🔴 🟡 🟢 Test live : https://remix.ethereum.org/
 
 ## ✨ Features
 
@@ -75,119 +54,6 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 | <img src='https://flagcdn.com/uz.svg' width=20> &nbsp; **Uzbek** - O'zbek                  |   uz   | [Firdavs](https://github.com/Firdavs9512/)                                             |
 | <img src='https://flagcdn.com/vn.svg' width=20> &nbsp; **Vietnamese** - Tiếng Việt         |   vn   | [Diep](https://github.com/diepdo1810/)                                                 |
 
-## 📥 Installation Guide
-
-### Download
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/XengShi/materialYouNewTab.git
-   ```
-   - Alternatively, download the latest version as a ZIP file by clicking the **Download ZIP** button below:
-
-   [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/XengShi/materialYouNewTab/releases)
-
-2. **Direct Download**:
-   - On the repository page, click the **Code** button, then select **Download ZIP** from the dropdown.
-
----
-
-### Installation 
-
-#### ![Chromium](https://img.icons8.com/?size=20&id=104996&format=png&color=000000) Chromium-Based Browsers
-
-1. **Install from Chrome Web Store**:
-   - [Chrome Web Store link](https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn)
-   
-   **Or** follow the manual steps below:
-
-2. **Manual Installation**:
-   - **Prepare the Extension Folder**:
-     - Ensure you’ve cloned the repository or downloaded the ZIP file and extracted it.
-   
-   - **Open Extensions Page**:
-     Open your preferred browser and enter the following text in the address bar
-     - ![Chrome](https://img.icons8.com/color/20/000000/chrome--v1.png) Chrome: `chrome://extensions`
-
-     -  ![Edge](https://img.icons8.com/?size=20&id=dGm9KIZPpukc&format=png&color=000000) Edge: `edge://extensions`
-
-     -  ![Brave](https://img.icons8.com/color/20/000000/brave-web-browser.png) Brave: `brave://extensions`
-
-     - ![Opera](https://img.icons8.com/color/20/000000/opera--v1.png) Opera: `opera://extensions`
-
-   - **Enable Developer Mode**:
-     - Turn on **Developer Mode** in the extensions page.
-
-   - **Load Unpacked Extension**:
-     - Click on **Load unpacked** and select your extracted extension folder.
-
-Below are screenshots of the process to guide you through each step visually.
-
-<img src="https://i.postimg.cc/w6JYypvc/chrome.png" alt="Screenshot 1" width="569">
-<img src="https://i.postimg.cc/0ksR7BKg/edge.png" alt="Screenshot 2" width="569">
-<img src="https://i.postimg.cc/MqPSg5NR/brave.png" alt="Screenshot 3" width="569">
-
----
-
-#### ![Firefox](https://img.icons8.com/color/20/000000/firefox--v1.png) Firefox
-
-1. **Install from Mozilla Extensions Store**:
-   - [Mozilla Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/)
-
-  <img src="https://i.postimg.cc/bPW2fHX7/FireFox.png" alt="Screenshot" width="569">
-
-  
-   **Or** follow the manual steps below:
-
-2. **Manual Installation**:
-   - Clone the repository or download and extract the ZIP file.
-   - **Prepare the Manifest**:
-     - Delete the existing `manifest.json` file.
-     - Rename `manifest(firefox).json` to `manifest.json`.
-   - **Load Temporary Add-on**:
-     - Go to `about:debugging#/runtime/this-firefox`, select **"This Firefox"**, then click **Load Temporary Add-on**.
-     - Browse and select the updated `manifest.json`.
-
----
-
-#### ![Safari](https://img.icons8.com/color/20/000000/safari--v1.png) Safari
-
-1. Clone the repository or download and extract the ZIP file.
-2. **Enable Developer Mode**:
-   - Open **Safari**, go to **Preferences > Advanced** and enable **Show Develop menu in the menu bar**.
-3. **Install Extension**:
-   - Go to **Develop > Show Extension Builder**, click the **"+"** button, and select your extension folder.
-   - Click **Install**.
-
----
-
-### Installation Video
-
-For a step-by-step walkthrough, watch this [installation guide video](https://youtu.be/P4ryQPixfw8).
-
-[![Watch the video](https://img.youtube.com/vi/P4ryQPixfw8/0.jpg)](https://youtu.be/P4ryQPixfw8)
-
-## 📖  Usage
-
-1. **Welcome Greeting**:
-   - The extension greets you with a personalized message, like "Hello! It’z RJ," and displays the current date. This feature can be customized in the settings to show your name or preferred text, making your browsing experience feel more personal.
-
-2. **Clock Widget**:
-   - A modern, animated clock is displayed prominently on the left side, keeping you aware of the current time without needing to check elsewhere.
-
-3. **Weather Information**:
-   - Displays real-time weather information for your location, including temperature, weather condition (like "Sunny"), humidity, and "Feels like" temperature.
-   - Users can set their location (like "Dhaka" in the screenshot) to get accurate weather data. A visual icon represents the weather, and temperature is displayed in degrees Celsius.
-
-4. **Search Bar**:
-   - The search bar allows you to enter queries directly from the new tab page. This makes it quick and easy to start searching without switching to a different page or window.
-   - Below the search bar, there are search engine options that allow you to choose your preferred search engine: Google, DuckDuckGo, Bing, Brave, or YouTube.
-
-5. **Quick Access Social Media Icons**:
-   - At the bottom, there are quick-access icons for popular platforms, including YouTube, Email, Telegram, WhatsApp, Twitter, and more.
-   - Clicking on any of these icons will redirect you to the respective platform, allowing for easy access to your frequently used services.
-
-6. **AI Tools Button**:
-   - On the bottom left, an "AI Tools" button is available, which could provide access to AI-powered tools directly from the New Tab page. This feature can be helpful for quick, AI-driven assistance or tasks.
 
 ## 🤝 Contributing
 
@@ -209,6 +75,4 @@ If you encounter any bugs or issues, please [submit an issue](https://github.com
 For information on how we handle privacy, please read our [Privacy Policy](https://xengshi.github.io/materialYouNewTab/privacy-policy.html).
 
 ## 📜 License
-Copyright (C) 2023-2024 XengShi
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/XengShi/materialYouNewTab/blob/main/LICENSE) file for details.
+Copyright (C) 2024-2025 Amulya Gupta
