@@ -1,4 +1,3 @@
-<!-- Initialized : Sun 20 Aug 2023 03∶41∶08 PM IST  -->
 <h1 align="center">
 
   <a href="https://xengshi.github.io/materialYouNewTab/"><img src="https://i.ibb.co/x11pGSs/icon-128.png" width="50"></a>
@@ -213,6 +212,3 @@ For information on how we handle privacy, please read our [Privacy Policy](https
 Copyright (C) 2023-2024 XengShi
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/XengShi/materialYouNewTab/blob/main/LICENSE) file for details.
-
-[GitHub](https://github.com/XengShi) &nbsp; [Telegram](https://t.me/xengshi) &nbsp; [Email](mailto:xengshi@outlook.com)
-
