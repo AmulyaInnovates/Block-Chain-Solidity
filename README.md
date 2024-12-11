@@ -68,7 +68,7 @@ Contributions are welcome! If you’d like to contribute:
 
 ## ❓ Issues and Support
 
-If you encounter any bugs or issues, please [submit an issue](https://github.com/XengShi/materialYouNewTab/issues) on the GitHub repository. 
+If you encounter any bugs or issues, please [submit an issue](https://github.com/AmulyaInnovates/Block-Chain-Solidity/issues) on the GitHub repository. 
 
 ## 🔒 Privacy Policy
 
