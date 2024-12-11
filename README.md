@@ -12,7 +12,7 @@ Solidity is an object-oriented, high-level language for implementing smart contr
 </div>
 
 
-<a href="https://github.com/AmulyaInnovates" target="_blank"> <img src="https://github.com/AmulyaInnovates/Block-Chain-Solidity/blob/49222712f28e391b02c1591c316882372ad77a7d/Images/Copy%20of%20Copy%20of%20Black%20And%20Beige%20Minimal%20Maha%20Shivratri%20Instagram%20Story.png" height= 180 width= 60></a>
+<a href="https://github.com/AmulyaInnovates" target="_blank"> <img src="https://github.com/AmulyaInnovates/Block-Chain-Solidity/blob/49222712f28e391b02c1591c316882372ad77a7d/Images/Copy%20of%20Copy%20of%20Black%20And%20Beige%20Minimal%20Maha%20Shivratri%20Instagram%20Story.png"></a>
 
 
 #### 🔴 🟡 🟢 Test live : https://remix.ethereum.org/
