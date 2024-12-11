@@ -7,7 +7,10 @@
 </h1>
 <div align="center">
 
-Material You NewTab is a versatile browser extension that personalizes your New Tab page with customizable themes and a welcoming message, all while integrating seamlessly with your preferred search engine.
+Solidity
+    -> It is an object oriented, high-level languag for implementing smart contracts.
+    ->Smart contractsare programs which govern the behaviour of accounts with Etheruem state.
+    ->Solidity is statically typed, supports inheritance, libraries and complex user-defined types.
 
 </div>
 
