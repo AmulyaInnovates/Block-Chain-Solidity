@@ -7,10 +7,7 @@
 </h1>
 <div align="center">
 
-Solidity
-    -> It is an object oriented, high-level languag for implementing smart contracts.
-    ->Smart contractsare programs which govern the behaviour of accounts with Etheruem state.
-    ->Solidity is statically typed, supports inheritance, libraries and complex user-defined types.
+Solidity is an object-oriented, high-level language for implementing smart contracts, which are programs governing the behavior of accounts with the Ethereum state, and it is statically typed, supporting inheritance, libraries, and complex user-defined types.
 
 </div>
 
