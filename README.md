@@ -17,21 +17,6 @@ Solidity is an object-oriented, high-level language for implementing smart contr
 
 #### 🔴 🟡 🟢 Test live : https://remix.ethereum.org/
 
-## ✨ Features
-
-- **Customizable Themes**: Choose from a selection of themes to match your style.
-- **Personalized Greeting**: Add a custom message or your name, so you're greeted each time you open a new tab.
-- **Integrated Search**: Search directly from the New Tab using your preferred search engine—Google, DuckDuckGo, Bing, or YouTube.
-- **Browser Compatibility**: Supports major browsers like Chrome, Edge, Firefox, Brave, and Safari.
-
-## 🛠️ Additional Features
-
-- **Responsive and Modern Design**:
-  - The extension is built with a clean, modern interface inspired by Material You, offering a consistent aesthetic that’s pleasing to the eye.
-  - Elements are intuitively placed, ensuring ease of use and accessibility for users of all ages.
-
-- **Seamless Integration with Browsers**:
-  - The extension integrates smoothly with all major browsers, including Chrome, Edge, Brave, Firefox, and Safari, providing a cohesive experience across platforms.
 
 ## 🌐 Currently Supported Languages (16)
 
@@ -69,10 +54,6 @@ Contributions are welcome! If you’d like to contribute:
 ## ❓ Issues and Support
 
 If you encounter any bugs or issues, please [submit an issue](https://github.com/AmulyaInnovates/Block-Chain-Solidity/issues) on the GitHub repository. 
-
-## 🔒 Privacy Policy
-
-For information on how we handle privacy, please read our [Privacy Policy](https://xengshi.github.io/materialYouNewTab/privacy-policy.html).
 
 ## 📜 License
 Copyright (C) 2024-2025 Amulya Gupta
