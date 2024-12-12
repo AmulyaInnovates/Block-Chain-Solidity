@@ -1,6 +1,6 @@
 <h1 align="center">
 
-  <a href="https://xengshi.github.io/materialYouNewTab/"><img src="https://i.ibb.co/x11pGSs/icon-128.png" width="50"></a>
+  <a href="https://github.com/AmulyaInnovates"><img src="https://i.ibb.co/x11pGSs/icon-128.png" width="50"></a>
   <br>
   Block Chain Solidity
 
